@@ -3,18 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://debanjan-mondal-2005.github.io/debanjan-mondal-2005.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://debanjan-mondal-2005.github.io/debanjan-mondal-2005.github.io",
-  "scripts": {
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
-  "build": "vite build",
-  "dev": "vite"
-}
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
