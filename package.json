@@ -8,6 +8,13 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "homepage": "https://debanjan-mondal-2005.github.io/debanjan-mondal-2005.github.io",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "build": "vite build",
+  "dev": "vite"
+}
   "dependencies": {
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
