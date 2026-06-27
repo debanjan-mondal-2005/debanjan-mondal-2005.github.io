@@ -19,6 +19,7 @@ yarn-error.log*
 
 # Dependencies (if you add npm/node later)
 node_modules/
+package.json
 package-lock.json
 yarn.lock
 
