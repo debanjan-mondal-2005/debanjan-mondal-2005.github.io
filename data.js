@@ -48,36 +48,33 @@ window.portfolioData = {
       category: "AI & Machine Learning",
       icon: "cpu",
       skills: [
-        { name: "Scikit-Learn", rating: "Expert", desc: "Classification, regression, regression trees, and preprocessing." },
-        { name: "Pandas & NumPy", rating: "Expert", desc: "Data manipulation, feature engineering, vector matrices." },
-        { name: "TensorFlow & Keras", rating: "Advanced", desc: "Neural networks training, optimization, and transfer learning." },
-        { name: "OpenCV", rating: "Advanced", desc: "Image thresholding, filtering, contours, and real-time object tracking." },
-        { name: "PyTorch", rating: "Intermediate", desc: "Deep learning modeling and tensor computing pipelines." }
+        { name: "Scikit-Learn", rating: "Basic to Intermediate", desc: "Classification, regression, regression trees, and preprocessing." },
+        { name: "Pandas & NumPy", rating: "Basic to Intermediate", desc: "Data manipulation, feature engineering, vector matrices." },
+        { name: "TensorFlow & Keras", rating: "Basic", desc: "Neural networks training, optimization, and transfer learning." },
+        { name: "OpenCV", rating: "Basic", desc: "Image thresholding, filtering, contours, and real-time object tracking." },
       ]
     },
     {
       category: "Web Development",
       icon: "layout",
       skills: [
-        { name: "Flask & FastAPI", rating: "Advanced", desc: "Developing secure REST APIs to serve ML prediction models." },
-        { name: "React", rating: "Advanced", desc: "Building modular, state-driven, interactive client UI dashboards." },
-        { name: "HTML5 & CSS3", rating: "Expert", desc: "Semantic structures, Flexbox/Grid layouts, and animations." },
-        { name: "JavaScript", rating: "Advanced", desc: "Asynchronous fetch operations, DOM hooks, and ES6+ standards." }
+        { name: "Flask & FastAPI", rating: "Basic", desc: "Developing secure REST APIs to serve ML prediction models." },
+        { name: "HTML5 & CSS3", rating: "Basic", desc: "Semantic structures, Flexbox/Grid layouts, and animations." },
       ]
     },
     {
       category: "Databases",
       icon: "database",
       skills: [
-        { name: "MongoDB", rating: "Intermediate", desc: "NoSQL JSON document stores, aggregations, and CRUD queries." }
+        { name: "MySQL", rating: "Basic to Intermediate", desc: "Basic database operations and querying." },
       ]
     },
     {
-      category: "Tools & Cloud Platforms",
+      category: "Tools",
       icon: "settings",
       skills: [
-        { name: "Git & GitHub", rating: "Advanced", desc: "Version control workflows, branches, pulls, and actions." },
-        { name: "Docker", rating: "Intermediate", desc: "Containerizing python models for production independence." },
+        { name: "Git & GitHub", rating: "Basic", desc: "Version control workflows, branches, pulls, and actions." },
+        { name: "Docker", rating: "Basic", desc: "Containerizing python models for production independence." },
         { name: "VS Code & Jupyter", rating: "Expert", desc: "Primary development editors and exploratory data analyses." }
       ]
     }
